@@ -1,0 +1,34 @@
+.modal-header{
+    padding: 5px 15px;
+    background-color: #333;
+}
+.modal-title{
+    font-size: 18px;
+    color: #fff;
+}
+.modal-footer{
+    padding: 5px 15px;
+}
+
+.actionBtnContainer{
+    display: flex;
+    align-items: center;
+}
+
+.actionBtnContainer > button{
+    border: 0;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.conatinerBox{
+    padding: 20px;
+    background-color: #fff;
+    transform: translate(72px,64px);
+    flex: 1;
+    width: calc(100% - 72px);
+    margin-left: 0!important;
+}
+.navbarDrawer.active ~ .conatinerBox{
+    transform: translate(240px,64px);
+    width: calc(100% - 240px);
+}
